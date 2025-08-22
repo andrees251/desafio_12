@@ -1,0 +1,18 @@
+main{
+    color: $negro;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 2fr 2fr;
+    grid-template-areas: "card primary";
+    align-items: center;
+
+    @include pc{
+        display: grid;
+        grid-template-columns: 70% ;
+        grid-template-rows: 1fr 1fr;
+        grid-template-areas: "primary"
+                                                         "card";
+        justify-content: center;
+        align-items: center;
+    }
+}

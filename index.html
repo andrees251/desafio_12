@@ -13,6 +13,11 @@
     <link rel="icon" type="image/png" href="./img/favicon16.png" sizes="16x16">
     <link rel="icon" type="image/png" href="./img/favicon32.png" sizes="32x32">
 
+    <!-- enlace a font family del button -->
+     <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Story+Script&family=WDXL+Lubrifont+TC&display=swap" rel="stylesheet">
+
     <!-- enlace bootstrap -->
    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
 
@@ -51,8 +56,30 @@
              <!-- boton agregado con bootstrap -->
 
             <div class="d-grid">
-            <button class="btn btn-warning btn-lg" type="button">Saber más...</button>
-            
+
+                        <button class="btn btn-warning btn-lg" type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">Saber más...    
+                        </button>
+        
+
+                        <!-- Modal -->
+                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">👑 Queen Studio – Arquitectura con carácter</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                En Queen Studio creemos que la arquitectura no solo construye espacios, sino también experiencias. Somos un estudio que combina diseño contemporáneo, sensibilidad estética y soluciones funcionales para crear obras que dialogan con su entorno y con quienes las habitan.
+                                <br>
+                                Cada proyecto que abordamos es una oportunidad para contar una historia única. Desde viviendas que reflejan la personalidad de sus habitantes, hasta espacios comerciales que potencian marcas y experiencias, trabajamos con pasión, precisión y una mirada estratégica.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                            </div>
+                        </div>
+                     </div>
             </div>
 
         </section>

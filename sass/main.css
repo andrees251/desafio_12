@@ -121,4 +121,7 @@ main {
     display: inline-block;
     padding: 15px;
   }
+}
+.primary .d-grid {
+  font-family: "WDXL Lubrifont TC", sans-serif;
 }/*# sourceMappingURL=main.css.map */

@@ -45,6 +45,9 @@ body.dark-mode .btn-toggle {
   background-color: #444;
   color: #fff;
 }
+body.dark-mode .bg {
+  background-color: #121212;
+}
 
 main {
   color: black;
@@ -98,6 +101,10 @@ main {
   display: inline-block;
   margin-left: 40px;
 }
+body.dark-mode .card {
+  background-color: #23272b;
+  color: #e0e0e0;
+}
 
 .primary {
   grid-area: primary;
@@ -143,4 +150,18 @@ main {
 }
 .primary .d-grid {
   font-family: "WDXL Lubrifont TC", sans-serif;
+}
+body.dark-mode .primary {
+  background-color: #23272b;
+  color: #e0e0e0;
+  border-radius: 15px;
+}
+body.dark-mode .primary .btn {
+  background-color: #23272b;
+  color: #e0e0e0;
+  border-color: #444;
+}
+body.dark-mode .primary .modal-content {
+  background-color: #222;
+  color: #e0e0e0;
 }/*# sourceMappingURL=main.css.map */

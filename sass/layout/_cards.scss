@@ -34,4 +34,10 @@
             }
         }
     }
+
+    body.dark-mode & {
+        background-color: #23272b;
+        color: #e0e0e0;
+        
+    }
 }

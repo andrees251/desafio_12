@@ -27,4 +27,28 @@ body{
         }
     }
 
+    .btn-toggle {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 16px;
+    background-color: #ddd;
+    color: #000;
+    transition: background 0.3s, color 0.3s;
+  }
+  
+  
+
 }
+
+body.dark-mode {
+        background-color: #121212;
+        color: #ffffff;
+
+        .btn-toggle {
+            background-color: #444;
+            color: #fff;
+        }
+    }
+    
